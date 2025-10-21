@@ -218,4 +218,4 @@ app.delete('/strings/:string_value', (req, res) => {
 app.get('/', (req, res) => res.json({ status: 'ok' }));
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`🚀 String Analyzer Service running on port ${PORT}`)
+app.listen(PORT, () => console.log(`🚀 String Analyzer Service running on port ${PORT}`))
